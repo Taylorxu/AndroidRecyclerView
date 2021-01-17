@@ -14,7 +14,7 @@ import com.lee.recyclerview.adapter.MfCommonRcvAdapter;
  * Created by lee on 15/10/28.
  * Email:lee131483@gmail.com
  */
-public class MfRecycylerView extends RecyclerView {
+public class MfRecycylerVIew extends RecyclerView {
 
     private View mHeaderView;
 
@@ -22,15 +22,15 @@ public class MfRecycylerView extends RecyclerView {
 
     private View mEmptyView;
 
-    public MfRecycylerView(Context context) {
+    public MfRecycylerVIew(Context context) {
         super(context);
     }
 
-    public MfRecycylerView(Context context, AttributeSet attrs) {
+    public MfRecycylerVIew(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public MfRecycylerView(Context context, AttributeSet attrs, int defStyle) {
+    public MfRecycylerVIew(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 

@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import com.lee.recyclerview.adapter.AdapterItem;
 import com.lee.recyclerview.adapter.MfCommonRcvAdapter;
-import com.lee.recyclerview.recyclerview.MfRecycylerView;
+import com.lee.recyclerview.recyclerview.MfRecycylerVIew;
 import com.rcv.lee.androidrecyclerview.item.Item;
 
 import java.lang.ref.WeakReference;
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     private PtrClassicFrameLayout mPtrClassicFrameLayout;
 
-    private MfRecycylerView mRecyclerView;
+    private MfRecycylerVIew mRecyclerView;
 
     private LinearLayoutManager mLayoutManager;
 
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 refreshData();
             }
         });
-        mRecyclerView = (MfRecycylerView) findViewById(R.id.recyclerView);
+        mRecyclerView = (MfRecycylerVIew) findViewById(R.id.recyclerView);
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
